@@ -1,0 +1,58 @@
+.border {
+    border: 2px solid black;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.grey{
+    color: grey;
+}
+
+.grey:hover{
+    color: black;
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #242424;
+    color: white;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(0.6);
+}
+
+.h-invert{
+    filter: invert(1);
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.logo-w{
+    width: 25px;
+}

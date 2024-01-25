@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify - Web Player: Music for everyone</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
 </head>
+
 <body>
-    
+    <div class="container flex">
+        <div class="left bg-black rounded">
+            <div class="home rounded bg-grey border m-1 p-1">
+                <div class="spotify-logo"><img class="h-invert" src="images/logo.svg" alt="spotify-logo"></div>
+                <ul>
+                    <li class="home-text"><img class="invert logo-w h-invert" src="images/home.svg" alt="Home">Home</li>
+                    <li class="invert search grey"><img class="logo-w grey" src="images/search-icon.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library flex bg-grey rounded border m-1 p-1">
+                <div class="heading flex">
+                    <img class="logo-w invert" src="images/library.svg" alt="">
+                    Your library
+                </div>
+                <img class="invert logo-w" src="images/plus+.svg" alt="">
+            </div>
+            <div class="footer bg-grey m-1 rounded">
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+        <div class="right rounded bg-grey">Spotify</div>
+    </div>
 </body>
+
 </html>
