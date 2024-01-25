@@ -23,6 +23,10 @@
     filter: invert(1);
 }
 
+.gray{
+    filter: invert(0.4);
+}
+
 .bg-grey{
     background-color: #242424;
     color: white;
