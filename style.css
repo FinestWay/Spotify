@@ -183,13 +183,14 @@ body {
 }
 
 .play:hover {
-    animation: up 1.4s ease-in-out;
+    animation: up 1s ease-in-out;
     animation-iteration-count: 1;
+    box-shadow: 2px 2px 3px 0px black;
 }
 
 @keyframes up {
     0% {
-        opacity: 0;
+        opacity: 0.1;
         transform: translateY(0px);
     }
 
