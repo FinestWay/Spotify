@@ -124,15 +124,14 @@ body {
 }
 
 .btn-2 {
+    color: black;
     padding: 15px;
-    box-shadow: 5px 0px 2px 0 rgb(224, 111, 111);
     transition: all 0.25s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
 .btn-2:hover {
     font-weight: 600;
     color: rgb(236, 233, 233);
-    box-shadow: 0 0 0 0 white;
     background: linear-gradient(35deg, orange 20%, lightblue 40%, gray 70%);
 }
 
@@ -140,7 +139,7 @@ body {
     padding: 14px;
 }
 
-.card-container{
+.card-container {
     padding: 15px;
     display: flex;
     gap: 20px;
@@ -148,6 +147,7 @@ body {
 }
 
 .card {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,10 +158,43 @@ body {
     padding: 4px;
 }
 
-.card img{
+.card img {
     object-fit: cover;
 }
 
-.card p{
+.card p {
     color: rgb(175, 168, 168);
+}
+
+.play {
+    position: absolute;
+    right: 9px;
+    bottom: 72px;
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(14, 230, 14);
+    border-radius: 50%;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.play:hover {
+    animation: up 1.4s ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes up {
+    0% {
+        opacity: 0;
+        transform: translateY(0px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(-40px);
+    }
 }
