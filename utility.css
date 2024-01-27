@@ -62,7 +62,11 @@
 }
 
 .arrow{
+    width: 25px;
     border-radius: 50%;
-    border: none;
-    filter: invert(0.5);
+    filter: invert(.9);
+}
+
+.arrow:hover {
+    filter: invert(.5);
 }
