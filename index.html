@@ -12,25 +12,43 @@
 <body>
     <div class="container flex">
         <div class="left bg-black rounded">
-            <div class="home rounded bg-grey border m-1 p-1">
+            <div class="home rounded bg-grey m-1 p-1">
                 <div class="spotify-logo"><img class="h-invert" src="images/logo.svg" alt="spotify-logo"></div>
                 <ul>
                     <li class="home-text"><img class="invert logo-w h-invert" src="images/home.svg" alt="Home">Home</li>
-                    <li class="search grey"><img class="logo-w gray" src="images/search-icon.svg" alt="search">Search</li>
+                    <li class="search grey"><img class="logo-w gray" src="images/search-icon.svg" alt="search">Search
+                    </li>
                 </ul>
             </div>
-            <div class="library flex bg-grey rounded border m-1 p-1">
+
+            <!-- Library section starts from here -->
+            <div class="library bg-grey rounded m-1 p-1">
                 <div class="heading flex">
-                    <img class="logo-w invert" src="images/library.svg" alt="">
-                    Your library
+                    <div class="library-logo flex">
+                        <img class="logo-w invert" src="images/library.svg" alt="library-logo">
+                        Your library
+                    </div>
+                    <img class="invert logo-w" src="images/plus+.svg" alt="">
                 </div>
-                <img class="invert logo-w" src="images/plus+.svg" alt="">
-            </div>
-            <div class="footer bg-grey m-1 rounded">
-                <a href="#">Cookies</a>
+
+                <!-- footer of the library -->
+                <div class="footer bg-grey m-1 rounded">
+                    <a href="#">Cookies</a>
+                </div>
             </div>
         </div>
-        <div class="right rounded bg-grey">Spotify</div>
+        <div class="right rounded bg-grey">
+            <div class="header">
+                <div class="nav">
+                    <img class="arrow logo-w" src="images/left-arrow.svg" alt="">
+                    <img class="arrow logo-w" src="images/right-arrow.svg" alt="">
+                </div>
+                <div class="buttons">
+                    <button class="btn btn-1">Sign up</button>
+                    <button class="btn btn-2">Login</button>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 

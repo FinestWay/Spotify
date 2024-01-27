@@ -60,3 +60,9 @@
 .logo-w{
     width: 25px;
 }
+
+.arrow{
+    border-radius: 50%;
+    border: none;
+    filter: invert(0.5);
+}
