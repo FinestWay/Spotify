@@ -152,7 +152,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    width: 150px;
+    width: 140px;
     background-color: rgb(166, 33, 255);
     border: none;
     padding: 10px;
@@ -171,7 +171,7 @@ body {
 .play {
     position: absolute;
     right: 20px;
-    top: 185px;
+    top: 180px;
     display: flex;
     justify-content: center;
     width: 30px;
@@ -187,7 +187,7 @@ body {
 
 .card:hover .play {
     opacity: 1;
-    top: 70px;
+    top: 100px;
     box-shadow: 2px 2px 3px 0px black;
     background-color: rgb(39, 223, 39);
 }
